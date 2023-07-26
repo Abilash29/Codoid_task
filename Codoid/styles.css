@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: Arial, sans-serif;
+    /* Set the background image */
+    background-image: url("Images/BG.PNG");
+    /* Set background image size and behavior */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+}
+
+header {
+    color: #4f3578;
+    padding: 10px;
+    
+}
+
+nav {
+    background-color: #fff;
+    color: #4f3578;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 2rem;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 7%;
+}
+
+nav img{
+    height: 40px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
